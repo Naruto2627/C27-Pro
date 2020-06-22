@@ -9,7 +9,7 @@ class Bob{
         }
         this.body =Bodies.circle(x,y,17,options);
         this.width =35;
-        this.image =loadImage("Images/bobImg.png");
+        this.image =loadImage("bobImg.jpg");
         World.add(world, this.body);
     }
     

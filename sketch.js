@@ -7,10 +7,10 @@ var engine, world;
 var bobObject1, bobObject2, bobObject3, bobObject4, bobObject5;
 var roof,string;
 var bobDiameter;
-var bobSound;
+var bobImg;
 
 function preload(){
-
+    
 }
 
 function setup(){
@@ -33,8 +33,6 @@ function setup(){
     string3 = new String(roof.body,bobObject3.body,0,0);
     string4 = new String(roof.body,bobObject4.body,bobDiameter,0);
     string5 = new String(roof.body,bobObject5.body,bobDiameter*2,0);
-
-    bobSound = loadSound("bobSound1.mp3");
 }
 
 function draw(){
