@@ -2,4 +2,4 @@
 
 OUTPUT LINK
 
-https://agnikasunil.github.io/C27-Project/
+ https://naruto2627.github.io/C27-Pro/
