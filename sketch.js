@@ -56,10 +56,7 @@ function draw(){
     string4.display();
     string5.display();
 
-    if(keyDown("w")){
+    if(keyDown(UP_ARROW)){
         Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:70,y:-70});
-    }
-    if(keyDown("s")){
-        Matter.Body.applyForce(bobObject5.body,bobObject5.body.position,{x:70,y:-70});
     }
 }
